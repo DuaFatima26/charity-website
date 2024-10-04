@@ -181,6 +181,11 @@
    width: 60px;
    margin: 0 auto;
 }
+.orange-line1{
+    border-bottom: 2px solid #fa6f1c;
+    width: 90px;
+ 
+ }
 
 .staff-intro .row .pink:hover{
     background-color: #fa6f1c;
@@ -227,4 +232,59 @@
 .newsletter button{
     background-color: #fa6f1c !important;
     color: white;
+}
+
+
+/* carousel with content */
+
+.emay .emay1:hover{
+    color: rgb(133, 111, 108) !important;
+    cursor:pointer
+}
+
+.emay .emay1{
+    color: #fa6f1c; margin-left: 230px !important ; margin-top: -30px;}
+
+@media(max-width:518px){
+    .emay .emay1{
+        margin-left: 10px !important;
+        margin-top: -10px !important;
+       
+    }
+
+    .emay .emay3{
+        display: none;
+    }
+
+    .emay .emay2{
+        display: block !important;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+}
+
+/* carousel with content closes here*/
+
+
+
+.news .leftright .fa-solid:hover{
+    background-color: #fa6f1c;
+    color: white;
+    cursor: pointer;
+}
+
+
+.camp h6:hover{
+    color: #fa6f1c;
+    cursor: pointer;
+}
+
+.news .golu{
+    border-right: 1px solid rgb(187, 187, 187);
+}
+
+@media(max-width:993px){
+    .news .golu{
+        border-right: none;
+    }
 }

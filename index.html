@@ -22,7 +22,8 @@
 
 <body>
 
-<div class="container-fluid first-nav">
+  <!-- the div above the navbar -->
+  <div class="container-fluid first-nav">
   <div class="row">
     <div class="col-lg-8"> <p class="mt-1"> <i class="fa-solid fa-phone-flip ms-4 me-2"></i>Call Us : <b>+1 514 000 0000</b></p></div>
     <!-- <div class="col-lg-1"><i class="fa-brands fa-facebook-f"></i></div>
@@ -30,10 +31,11 @@
     <div class="col-lg-1"><i class="fa-brands fa-google-plus-g"></i></div>
     <div class="col-lg-1"><i class="fa-brands fa-linkedin-in"></i></div> -->
   </div>
-</div>
-    
+  </div>
+  <!-- the div above the navbar closes here-->
+   
+  
   <!-- navbar of the website -->
-
   <nav class="navbar navbar-expand-xl my-4 ">
     <div class="container-fluid">
       <a class="navbar-brand " href="#"><img src="./assets/logo.png" alt="" class="w-25"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Foundation </a>
@@ -43,25 +45,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1" aria-current="page" href="#">HOME</a>
+            <a class="nav-link fw-semibold m-1" aria-current="page" href="./index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1" href="#">ABOUT US</a>
+            <a class="nav-link fw-semibold m-1" href="./about.html">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1" href="#">CAUSES</a>
+            <a class="nav-link fw-semibold m-1" href="./causes.html">CAUSES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1" href="#">EVENTS</a>
+            <a class="nav-link fw-semibold m-1" href="./events.html">EVENTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1" href="#">BLOG</a>
+            <a class="nav-link fw-semibold m-1" href="./blog.html">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1" href="#">STAFF</a>
+            <a class="nav-link fw-semibold m-1" href="./staf.html">STAFF</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold m-1 me-3" href="#">CONTACT US</a>
+            <a class="nav-link fw-semibold m-1 me-3" href="./contact.html">CONTACT US</a>
           </li>
         
         </ul>
@@ -71,12 +73,11 @@
       </div>
     </div>
   </nav>
-<!-- navbar of the website closes here -->
+  <!-- navbar of the website closes here -->
 
 
-
-<!-- carousel -->
-<div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+   <!-- carousel -->
+   <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-inner ">
       <div class="carousel-item active mb-5">
         <img src="./assets/slider-intro-image.jpg" class="d-block w-100" alt="...">
@@ -93,8 +94,8 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-</div>
-<!-- carousel div closes here -->
+   </div>
+   <!-- carousel div closes here -->
 
 
 <!-- features div -->
@@ -107,6 +108,7 @@
           taciti sociosqu ad litora torquent per conubia nostra.</p>
  </div>
 
+<!-- the cards in featre div  -->
  <div class="container mt-5 mb-5">
     <div class="row">
         <div class="col-lg-3 col-md-6">
@@ -160,15 +162,12 @@
     </div>
 </div>
 
-
-
-
-
-
+<!-- features div closes here -->
 
 
 <!-- carousel with content  -->
 
+<!-- styling for this section -->
 <style>
    
    
@@ -178,16 +177,14 @@
     }
     .content {
       display: flex;
-      height: 80vh;
+      min-height: 80vh;
     }
-  </style>
-
-
+</style>
 
   <div class="container-fluid gx-0 mt-5">
     <div class="row no-gutters gx-0">
       <!-- Carousel Section (6 columns) -->
-      <div class="col-12 col-md-6">
+      <div class="col-lg-6 col-md-12">
         <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -210,69 +207,59 @@
       </div>
       
       <!-- Content Section (6 columns) -->
-      <div class="col-12 col-md-6">
+      <div class=" col-lg-6 col-md-12 emay">
         <div class="content text-light bg-dark">
-          <div class="caro-cont">
-            <h4 class="mt-5 text-uppercase fs-6 ms-5">Sponsor This Entire Project</h4>
-            <h1 class="text-uppercase fs-2 ms-5">Give Education To 100 Children</h1>
+          <div class="caro-cont emay ms-md-5 ms-3">
+            <h4 class="mt-5 text-uppercase fs-6  ">Sponsor This Entire Project</h4>
+            <h1 class="text-uppercase fs-2 ">Give Education To 100 Children</h1>
+            <div class="orange-line1   "></div>
 
-            <p class="ms-5 mt-5 text-uppercase">Integer sit amet augue iaculis, ultricies justo nec, comm taciti sociosqu ad litora torquent.</p>
+            <p class="  mt-5 text-uppercase">Integer sit amet augue iaculis, ultricies justo nec, comm taciti sociosqu ad litora torquent.</p>
 
-            <p class="mt-4 ms-5">Nunc ullamcorper sollicitudin arcu, ut fermentum magna ultricies quis. Proin aliquet, est ut pellentesque malesuada,</p>
+            <p class="mt-4 ">Nunc ullamcorper sollicitudin arcu, ut fermentum magna ultricies quis. Proin aliquet, est ut pellentesque malesuada,</p>
 
-            <p class="ms-5">purus enim egestas nisl, eget mollis justo lorem facilisis orci. Sed in tristique nulla.</p>
+            <p class=" ">purus enim egestas nisl, eget mollis justo lorem facilisis orci. Sed in tristique nulla.</p>
 
-            <button class="btn  me-2 rounded-0 ms-5 text-light mt-5 fw-bold " type="submit">LEARN MORE</button>
-            <p class="or  ms-3">OR</p>
-            <p class="fw-bold d-inline-block ">EMAIL US AT</p>
-           
-         
-
-
-
-        
-          
+            <button class="btn  me-2 rounded-0  text-light mt-5 fw-bold " type="submit">LEARN MORE</button>
+            <p class="or  ms-3 emay3">OR</p>
+            <p class="fw-bold d-inline-block text-sm-start emay2 ">EMAIL US AT</p>
+            <p class=" text-uppercase fw-bold  emay1" > info@charitytheme.com</p>
+      
           </div>
         </div>
       </div>
     </div>
   </div>
 
+<!-- carousel with content closes here -->
 
 
 
-
-  <!-- featured newsssss -->
-
-  <!-- <div class="container mt-5"> -->
-    <!-- <div class="row"> -->
-      <!-- <div class="col-lg-6 bg-success">
-        <h6 class="fw-bold">FEATURED NEWS</h6>
-
-      </div> -->
+    <!-- featuredddd nwesss section -->
       
-    <div class="container-xxl row mx-auto pb-5 mt-5" style="border-bottom: 1px solid rgb(187, 187, 187);">
-      <div class="col-lg-6 col-sm-12 pe-lg-5 pe-1" style="border-right: 1px solid rgb(187, 187, 187);">
-          <div class="head d-flex justify-content-between align-items-center">
-              <div class="news">
-                  <h5 class="fw-bold text-uppercase pb-3" style="border-bottom: 1px solid #df5911;">Featured News</h5>
+    <div class="container-xxl row mx-auto pb-5 mt-5 news" style="border-bottom: 1px solid rgb(187, 187, 187);">
+      <div class="col-lg-6 col-md-12 pe-lg-5 pe-1 golu">
+          <div class=" d-flex justify-content-between align-items-center mt-5">
+              <div>
+                  <h5 class="fw-bold text-uppercase pb-3 " style="border-bottom: 4px solid#df5911">FeaturedNews<h5>
               </div>
-              <div class="slider">
+
+              <div class="leftright">
                   <i class="fa-solid fa-angle-left fs-4 p-2 text-center angle"
                       style="width: 40px; height: 40px; border: 1px solid rgb(93, 93, 93);"></i>
                   <i class="fa-solid fa-angle-right fs-4 p-2 text-center angle"
                       style="width: 40px; height: 40px; border: 1px solid rgb(93, 93, 93);"></i>
               </div>
+
           </div>
 
           <div
               class="blog d-flex flex-lg-row flex-column gap-4 align-items-lg-center align-items-start justify-content-between pt-5">
 
-              <img src="./assets/news-image.jpg" alt="" style="min-width: 270px; max-width: 400px;"
-                  class="img-fluid w-50">
+              <img src="./assets/news-image.jpg" alt="" class="img-fluid ">
 
-              <div class="text">
-                  <h6 class="text-uppercase heading">ORGANIZED FOOD CAMP
+              <div class="camp">
+                  <h6 class="text-uppercase fw-bold ">ORGANIZED FOOD CAMP
                       FOR CHILDREN</h6>
                   <p>Tree image fly upon earth a let had,
                       divided don't dominion isn't replenish
@@ -282,34 +269,36 @@
               </div>
           </div>
 
-          <div class="latestnews mt-5">
+          <div class=" mt-5">
               <h5 class="fw-bold text-uppercase pb-3 fs-6">Latest news</h5>
               <div class="blog d-flex gap-4 align-items-center justify-content-start px-3">
-                  <div class="image">
-                      <img src="./assets/pizza-treat.jpg" alt="">
+                  <div class="image-news">
+                      <img src="./assets/pizza-treat.jpg" alt="" class="img-fluid">
                   </div>
-                  <div class="text">
+                  <div >
                       <h6>Pizza Treat Given to Children</h6>
                       <p>May 7, 2018</p>
                   </div>
               </div>
 
               <div class="blog d-flex gap-4 align-items-center justify-content-start px-3 pt-4">
-                  <div class="image">
-                      <img src="./assets/pizza-treat-2.jpg" alt="">
+                  <div class="image-news">
+                      <img src="./assets/pizza-treat-2.jpg" alt="" class="img-fluid">
                   </div>
-                  <div class="text">
+                  <div>
                       <h6>Day With Childs from Africa</h6>
                       <p>May 7, 2018</p>
                   </div>
               </div>
           </div>
+
       </div>
 
 
-      <div class="col-lg-6 col-sm-12">
-        <h6 class="fw-bold mb-lg-5 mb-md-2 mb-sm-3 ms-md-5">UPCOMING EVENT</h6>
-        <img src="./assets/upcoming-event (1).jpg" alt="" class="ms-lg-5 img-fluid">
+      <div class="col-lg-6 col-md-12 camp">
+        <h5 class="fw-bold  mb-md-2 mb-sm-3 ms-md-5 mt-5" >UPCOMING EVENT</h5>
+        <div class="orange-line1 ms-lg-5 ms-sm-0"></div>
+        <img src="./assets/upcoming-event (1).jpg" alt="" class="ms-lg-5 img-fluid w-75 mt-5">
         <h6 class="fw-bold mb-2 ms-md-5 mt-3">ORGANIZING MUSIC EVENT TO GET GOOD DONATION</h6>
 
         <p class="ms-md-5"><i class="fa-regular fa-user"></i> &nbsp; Admin &nbsp;<i class="fa-regular fa-calendar">&nbsp;</i> &nbsp;
@@ -317,10 +306,10 @@
 
         <p class="mt-2 ms-md-5">Donec varius ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel placerat purus porta nec.</p>
         </div>
+
     </div>
-  </div>
 
-
+   <!-- featuredddd nwesss section closes here-->
 
   <!-- homeeeeeeeeeeeee stafffffffffff -->
 
@@ -415,7 +404,6 @@
      </div>
 
   </div>
-
 
   <!-- kids saying faqsss -->
 

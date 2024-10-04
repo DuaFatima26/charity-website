@@ -1,0 +1,102 @@
+.card-body button{
+    display: inline-block;
+    border:2px solid #fa6f1c;
+    color: #fa6f1c;
+
+}
+
+
+
+.card-body button:hover{
+    background-color: #fa6f1c;
+    color: white;
+}
+
+
+ul{
+    list-style-type:none
+}
+
+.bg-contact{
+    background-image: url(./assets/main-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 209px;
+}
+
+/* the box inside the background image of contact.html */
+.bg-home{
+    height: 45px;
+    width: 300px;
+
+}
+
+/* the content inside the bg-home */
+.bg-home p {
+    display: inline-block;
+    color: #fa6f1c;
+    cursor: pointer;
+    font-size: 0.6875rem;
+}
+
+
+.bg-home p:hover{
+    text-decoration: underline;
+}
+
+
+
+/* * this styling is for all the navbar that present on the pages */ 
+
+/* styling for the navbar button */
+.navbar button{
+    border:2px solid #fa6f1c;
+    color: #fa6f1c;
+}
+
+.navbar button:hover{
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: #fa6f1c;
+}
+
+/* styling for the navbars closes here */
+
+
+/* divvvv above footer */
+.div-above-footer button{
+    border: 2px solid  #fa6f1c;
+    color: #fa6f1c;
+    font-size: 15px;
+  font-stretch:extra-expanded;
+}
+
+.div-above-footer button:hover{
+    background-color: #fa6f1c;
+    color: white;
+    font-weight: bold;
+}
+
+/* styling for the footer */
+.foot-head:hover{
+    color: #fa6f1c !important;
+    cursor: pointer;
+}
+
+.quickkk-linkssss a:hover{
+    font-weight: bold;
+    color: white !important;
+}
+
+.contact-usss i{
+    color: #fa6f1c !important;
+}
+
+.newsletter button{
+    background-color: #fa6f1c !important;
+    color: white;
+}

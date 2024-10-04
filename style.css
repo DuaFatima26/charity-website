@@ -1,0 +1,230 @@
+*p{
+   
+     font-size: 0.875rem;
+}
+
+
+
+
+
+/* this styling is for the carousel present at the home page */
+.img-container img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+}
+
+
+/* this styling is for all the navbar that present on the pages */
+
+/* styling for the navbar button */
+.navbar button{
+    border:2px solid #fa6f1c;
+    color: #fa6f1c;
+}
+
+.navbar button:hover{
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: #fa6f1c;
+}
+
+/* styling for the navbars closes here */
+
+
+
+
+
+
+
+.caro-cont button{
+    border:2px solid #fa6f1c;
+    color: #fa6f1c;
+    width: 200px;
+    display: inline-block;
+}
+
+.caro-cont button:hover{
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.caro-cont .or{
+    display: inline-block;
+}
+
+
+
+
+.first-nav{
+    height: 40px;
+    background-color: ghostwhite;
+}
+
+
+.line-container {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, black 50%, gray 50%);
+    border-radius: 8px;
+    margin: 10px 0; 
+    opacity: 0.7; 
+  }
+
+
+
+/* styling for the contact.html */
+
+/* background image of contact */
+.bg-contact{
+    background-image: url(./assets/bg-contact-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 209px;
+}
+
+/* the box inside the background image of contact.html */
+.bg-home{
+    height: 45px;
+    width: 300px;
+
+}
+
+/* the content inside the bg-home */
+.bg-home p {
+    display: inline-block;
+    color: #fa6f1c;
+    cursor: pointer;
+    font-size: 0.6875rem;
+}
+
+
+.bg-home p:hover{
+    text-decoration: underline;
+}
+
+
+/* the second carousel in the contact page */
+.carousel-item button{
+    display: inline-block;
+    border:2px solid #fa6f1c;
+    color: #fa6f1c;
+
+}
+
+/* styling for the facebook icon in contact page */
+.carousel-item .icon-con{
+   background-color: rgb(2, 2, 59);
+   border:2px solid rgb(2, 2, 59);
+   color: white;
+}
+
+.carousel-item .icon-con:hover{
+    background-color: white;
+    color: black;
+    border:2px solid rgb(2, 2, 59);
+}
+
+.carousel-item button:hover{
+    background-color: #fa6f1c;
+    color: white;
+   
+}
+
+.new .york{
+    cursor: pointer;
+    line-height: 2px;
+}
+
+/* media queries for the contact page */
+@media (max-width:320px){
+    .bg-home{
+       width: 250px;
+    }
+}
+
+@media (max-width:275px){
+    .bg-home{
+       width: 220px;
+    }
+}
+
+/* media queris for the contact page closes here */
+
+/* styling fr the contact.html closes here */
+
+
+
+
+/* styling for the staff contact */
+.bg-staff{
+    background-image: url(./assets/main-image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 209px;
+}
+
+.staff-intro .row , .blue , .line-col{
+    border: 1px solid gainsboro
+}
+.staf-co{
+    display: inline-block;
+}
+
+.orange-line{
+   border-bottom: 2px solid #fa6f1c;
+   width: 60px;
+   margin: 0 auto;
+}
+
+.staff-intro .row .pink:hover{
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.staf-co:hover{
+    color: black;
+}
+
+/* bloggggggggggggggggggg */
+
+
+
+/* divvvv above footer */
+.div-above-footer button{
+    border: 2px solid  #fa6f1c;
+    color: #fa6f1c;
+    font-size: 15px;
+  font-stretch:extra-expanded;
+}
+
+.div-above-footer button:hover{
+    background-color: #fa6f1c;
+    color: white;
+    font-weight: bold;
+}
+
+/* styling for the footer */
+.foot-head:hover{
+    color: #fa6f1c !important;
+    cursor: pointer;
+}
+
+.quickkk-linkssss a:hover{
+    font-weight: bold;
+    color: white !important;
+}
+
+.contact-usss i{
+    color: #fa6f1c !important;
+}
+
+.newsletter button{
+    background-color: #fa6f1c !important;
+    color: white;
+}

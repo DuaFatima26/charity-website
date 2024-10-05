@@ -100,3 +100,21 @@ ul{
     background-color: #fa6f1c !important;
     color: white;
 }
+
+.orange-line1{
+    border-bottom: 2px solid #fa6f1c;
+    width: 90px;
+ 
+ }
+
+ @media (max-width:320px){
+    .bg-home{
+       width: 250px;
+    }
+}
+
+@media (max-width:275px){
+    .bg-home{
+       width: 220px;
+    }
+}

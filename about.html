@@ -20,17 +20,14 @@
  
   <style>
  
-    
     .content-row {
-    
       margin-bottom: 1.5rem;
     }
 
-  
     .content-row img {
       width: 80px;
       height: 80px;
-      margin-right: 15px;
+      margin-right: 15px; 
     }
 
     .center-box{
@@ -40,12 +37,6 @@
 
     .center-box p{
       color: #8a8a8a;
-     
-    }
-
-    .container-xxl .comment-para{
-      display: inline-block;
-      overflow: hidden;
     }
 
   form input , textarea{
@@ -60,42 +51,86 @@
     min-height: 60px; 
   }
 
-  .all-boxes-tag{
-    display: flex;
-  }
-  .tag-box{
-    border: 1px solid #8a8a8a;
-    width: 85px;
-    height: 30px;
-  }
-
-  .tag-box2{
-    border: 1px solid #8a8a8a;
-    width: 115px;
-    height: 30px;
-  }
-
-  @media (max-width:1050px){
-    .all-boxes-tag{
-      flex-wrap: wrap;
-    }
-  }
-
+ .boxes .btn:hover{
+background-color: #fa6f1c;
+color: white;
+ }
  
+ @media (max-width:890px){
+  form{
+    display: none;
+  }
 
+  .head-form{
+    display: none;
+  }
+ }
 
   </style>
 </head>
-
-
-
 <body>
 
+
+   <!-- navbar of the website -->
+   <nav class="navbar navbar-expand-xl my-4 ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#"><img src="./assets/logo.png" alt="" class="w-25"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Foundation </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1" aria-current="page" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1" href="./about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1" href="./causes.html">CAUSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1" href="./events.html">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1" href="./blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1" href="./staf.html">STAFF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold m-1 me-3" href="./contact.html">CONTACT US</a>
+          </li>
+        
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn  me-2 rounded-0 " type="submit">DONATE NOW</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar of the website closes here -->
+
+  <!-- first image with background -->
+  <div class="container-fluid bg-contact ">
+
+    <h2 class="fw-bold pt-5 ps-lg-5">ABOUT US</h2>
+  
+    <div class="bg-home bg-light ms-lg-5 mt-3  pt-2">
+      <p><span class="text-dark  ps-5 fw-bold pe-1 ">::</span>HOME</p>
+      <span class=" ps-2 ">/</span>
+      <p><span class="text-dark ps-1  fw-bold pe-1" >::</span>CONTACT US</p>
+    </div>
+  
+  </div>
+  <!-- first image with background closes here -->
+  
+
   <div class="container-xxl">
-    <div class="row no-gutters">
-      <!-- Carousel Section (8 columns) -->
-       <!-- first column all content -->
-      <div class="col-md-9 ">
+  <div class="row no-gutters">
+   <!-- Carousel Section (8 columns) -->
+  <!-- first column all content -->
+  <div class="col-md-9 ">
         <div id="carouselExample" class="carousel slide  mt-5" data-bs-ride="carousel">
           <div class="carousel-inner h-100">
             <div class="carousel-item active">
@@ -122,49 +157,90 @@
 
           <p  class="mt-5 ">Integer accumsan elit viverra, placerat dolor quis, pulvinar velit. Sed auctor lacus eu purus .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan elit viverra, placerat dolor quis, pulvinar velit.</p>
 
-          <!-- this row is for coumn section 1  -->
-         <div class="row"> 
-          <div class="col-5">
-          <h6 class="fw-bold mt-5">ACCESS TO INFORMATION</h6>
+      <!-- this row is for coumn section 1  -->
+      <div class="row"> 
+          <div class="col-md-5 col-sm-12">
+          <h6 class="fw-bold mt-5"><i class="fa-solid fa-circle-question mx-2"></i>ACCESS TO INFORMATION</h6>
           <p>Subdue and blessed heaven green so one make dry of behold god yielding beginning third above lights Given hath very hath living creepeth fish Creature.</p>
 
-          <h6 class="fw-bold mt-5">WE HELP CHILDREN</h6>
+          <h6 class="fw-bold mt-5"><i class="fa-solid fa-globe mx-2"></i>WE HELP CHILDREN</h6>
           <p>In over under beast seed He thing Second stars green there gathering living without greater image moving living signs fruit above heaven hath.</p>
         </div>
-        <div class="col-5 ms-5">
-          <h6 class="fw-bold mt-5">ALERT</h6>
+        <div class="col-md-5 col-sm-12 ms-md-5 ms-sm-0">
+          <h6 class="fw-bold mt-5"><i class="fa-solid fa-bell mx-2"></i>ALERT</h6>
           <p>Make meat so greater itself fly sixth green was wherein I Saw the Beginning third above lights Given hath very hath living creepeth fish Creature.</p>
 
-          <h6 class="fw-bold mt-5">WE DONT HAVE BORDERS</h6>
+          <h6 class="fw-bold mt-5"><i class="fa-solid fa-flag-checkered mx-2"></i>WE DONT HAVE BORDERS</h6>
           <p>Had two divide Great doesn't, evening form Beginning also saying, to that itself let spirit in. Lesser divided female have fill Which also you'll God.</p>
         </div>
       </div>
+      <!-- columnnn 1 four differnt section closes here -->
 
-
+      <!-- rectangular box -->
       <div class="container-xxl p-4 mt-4 center-box ">
-
        <p>Winged cattle sea hath there years form great one let abundantly sixth let were one earth were him after tree seed over first, fish moving fruit called shall.</p>
-
       </div>
+      <!-- rectangular box closes here-->
 
 
-      <!-- comment section starts here -->
-   <div class="container-xxl">
-    <img src="./assets/comment-1.jpg" alt="" class="img-fluid mt-5">
+    <!-- social media iconssssssssssss -->
+    <div class="container">
+        <div class="col-lg-10 col-sm-12  pb-5 mb-5" style="border-bottom: 1px solid rgba(119, 119, 119, 0.3);">
+      <p class="text-uppercase pt-5 fw-bold">Share it on</p>
+      <i class="fa-brands fa-facebook-f p-2 facebook text-center text-light bg-primary"
+      style="width: 45px; height: 35px; "></i>
+      <i class="fa-brands fa-twitter p-2 twitter text-center text-light"
+      style="width: 45px; height: 35px; background-color: #00c0f4;"></i>
+      <i class="fa-brands fa-google-plus-g p-2 google text-center text-light"
+      style="width: 45px; height: 35px; background-color: #ff3e00; "></i>
+      <i class="fa-brands fa-linkedin p-2 linkedin text-center text-light"
+      style="width: 45px; height: 35px; background-color: #007fa0; "></i>
+    </div>
+    </div>
+    <!-- social media iconssssssssssss closes here-->
 
-    <h6 class="fw-bold d-inline-block ms-2 comment-head">DARBAR ISHAN</h6><br>
-    <p class="ms-2 comment-para">Consectetur adipiscing elit. Inteadgger accumsan elit viverra,dgadg placerat dolor quis, pulvinar velit. nsectetur adipiscing elit.</p>
+    <!-- comentssssss -->
+   <p class="text-uppercase pt-1 pb-3 fw-bold" style="border-bottom: 1px solid rgba(119, 119, 119, 0.3);">Comment (3)</p>
+   <div class=" d-flex gap-4 align-items-lg-center align-items-start  justify-content-start pt-2">
+       <div>
+           <img src="./assets/comment-1.jpg" alt="">
+       </div>
+       <div class="py-lg-4 pt-0 pb-4" style="border-bottom: 1px solid rgba(119, 119, 119, 0.3);">
+           <h6 class="text  text-uppercase">Darbar ishan</h6>
+           <p style="width: 75px; height: 30px; background-color: #df5911; color: white;" class="text-center">Reply</p>
+           <p>Consectetur adipiscing elit. Inteadgger accumsan elit viverra,dgadg placerat dolor quis, pulvinar velit. nsectetur adipiscing elit.            </p>
+       </div>
    </div>
-
+   <div class="d-flex gap-4 align-items-lg-center align-items-start justify-content-start pt-2 ">
+       <div >
+           <img src="./assets/comment-2.jpg" alt="">
+       </div>
+       <div class="py-lg-4 pt-0 pb-4" style="border-bottom: 1px solid rgba(119, 119, 119, 0.3);">
+           <h6 class="text  text-uppercase">Chetan an</h6>
+           <p style="width: 75px; height: 30px; background-color: #df5911; color: white;" class="text-center">Reply</p>
+           <p>Consectetur adipiscing elit. Inteadgger accumsan elit viverra,dgadg placerat dolor quis, pulvinar velit. nsectetur adipiscing elit.            </p>
+       </div>
+   </div>
+   <div class=" d-flex gap-4 align-items-lg-center align-items-start justify-content-start pt-2">
+       <div >
+           <img src="./assets/comment-3.jpg" alt="">
+       </div>
+       <div class="py-lg-4 pt-0 pb-4">
+           <h6 class="text  text-uppercase">Darbar ishan</h6>
+           <p style="width: 75px; height: 30px; background-color: #df5911; color: white;" class="text-center">Reply</p>
+           <p>Consectetur adipiscing elit. Inteadgger accumsan elit viverra,dgadg placerat dolor quis, pulvinar velit. nsectetur adipiscing elit.            </p>
+       </div>
+   </div>
    <!-- comment section closes here -->
 
 
-   <!-- leave a comment section starts here -->
+   <!-- leave a comment section starts here  -->
 
-<div class="container-xxl">
+
   
-  <h5 class="fw-bold mt-4 text-uppercase">Leave a Comment</h5>
- <div class="container"> <form class="mt-4">
+ <h5 class="fw-bold mt-4 text-uppercase head-form">Leave a Comment</h5>
+ <div class="container fomr">
+   <form class="mt-md-4">
    
   <input type="text" name="Name" placeholder="Name" class="me-5">
   <input type="text" name="email" placeholder="Email" class="ms-5">
@@ -175,33 +251,37 @@
   <textarea placeholder="Comment" class="mt-5"></textarea>
 
  </form>
-</div>
+
+ 
+
 </div>
 
 <!-- leave a comment section closes here -->
 
-      </div>
+  </div>
 
       <!-- Content Section (3 columns) -->
        <!-- second column all section -->
       <div class="col-md-3 ">
         <div class="content mt-5">
-          <h5 class="fw-bold mb-5">Popular Posts</h5>
+          <h5 class="fw-bold ">Popular Posts</h5>
+          <div class="orange-line1 mb-5"></div>
           <!-- Row 1 -->
           <div class="content-row d-flex">
             <img src="./assets/popular-post-1.jpg" alt="Image 1">
-            <p class="fw-bold">This is a post format Donec neque n</p>
-           
+            <p class="text-uppercase d-inline-block">This is a post format Donec neque n</p>
           </div>
+         
+
           <!-- Row 2 -->
           <div class="content-row d-flex">
             <img src="./assets/popular-post-2.jpg" alt="Image 2">
-            <p class="fw-bold">This is a post format Donec neque n</p>
+            <p class="text-uppercase">This is a post format Donec neque n</p>
           </div>
           <!-- Row 3 -->
           <div class="content-row d-flex">
             <img src="./assets/popular-post-3.jpg" alt="Image 3">
-            <p class="fw-bold">This is a post format Donec neque n</p>
+            <p class="text-uppercase">This is a post format Donec neque n</p>
 
 
 
@@ -209,7 +289,8 @@
           </div>
         </div>
 
-        <h5 class="fw-bold mb-5 mt-5">UPCOMING EVENTS</h5>
+        <h5 class="fw-bold  mt-5">UPCOMING EVENTS</h5>
+        <div class="orange-line1 mb-5"></div>
 
         <div id="carouselExampleSlidesOnly" class="carousel slide mt-4" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -238,40 +319,50 @@
  
       
       </div>
-    </div>
+       </div>
 
-    <h5 class="fw-bold mb-5 mt-5">TAG CLOUD</h5>
 
-<!-- tag boxes starts here -->
-  <div class="all-boxes-tag">
-    <div class="tag-box text-center fw-semibold"><p>ACTIVITY</p></div>
-    <div class="tag-box text-center fw-semibold mx-2"><p>CHARITY</p></div>
-    <div class="tag-box text-center fw-semibold mt-md-2 mt-lg-0"><p>VIDEO</p></div>
+  <!-- tag boxes starts here -->
+  <h5 class="fw-bold  mt-5">TAG CLOUD</h5>
+  <div class="orange-line1 mb-5"></div>
+  <div class="boxes d-flex flex-wrap gap-2 mt-3">
+    <button class="btn btn-outline-dark rounded-0" >ACTIVITY</button>
+    <button class="btn btn-outline-dark rounded-0" >CHARITY</button>
+    <button class="btn btn-outline-dark rounded-0">VIDEO</button>
+    <button class="btn btn-outline-dark rounded-0">EDUCATION</button>
+    <button class="btn btn-outline-dark rounded-0" >DONATE</button>
+    <button class="btn btn-outline-dark rounded-0" >HELPING</button>
+    <button class="btn btn-outline-dark rounded-0" >HUMAN</button>
   </div>
-
-  
-  <div class="all-boxes-tag">
-    <div class="tag-box2 text-center fw-semibold mt-3"><p>EDUACATION</p></div>
-    <div class="tag-box text-center fw-semibold ms-3 mt-3"><p>DONATE</p></div>
-  </div>
+  <!-- tag boxes closes here -->
 
 
-
-<!-- tag boxes closes here -->
-  </div>
-
+  <h5 class="fw-bold  mt-5">LATEST PROJECTS</h5>
+  <div class="orange-line1 mb-5"></div>
 
 
+ <img src="./assets/event-image.jpg" alt="" class="img-fluid">
 
-  </div>
-  </div>
-
+ <h5 class="fw-bold my-2">GIVE CLEAN WATER</h5>
+ <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro.</p>
 
  
+ <h5 class="fw-bold  mt-5">GALLERY WIDGETS</h5>
+ <div class="orange-line1 mb-5"></div>
 
+ <img src="./assets/gallery-widget-1.jpg" alt="">
+ <img src="./assets/gallery-widget-2 (1).jpg" alt="">
+ <img src="./assets/gallery-widget-3 (1).jpg" alt="">
+ <img src="./assets/gallery-widget-3.jpg" alt="">
+ <img src="./assets/gallery-widget-4.jpg" alt="">
+ <img src="./assets/gallery-widget-2.jpg" alt="">
 
-   <!-- div above the footer -->
+     </div> <!--second column dive closes here -->
 
+</div>
+</div>
+
+ <!-- div above the footer -->
  <!-- change heading -->
  <div class="container-fluid div-above-footer mt-5" style="background-color: black;">
   <div class="container-xxl p-5 d-flex flex-lg-row flex-column justify-content-between align-items-center">
@@ -293,8 +384,7 @@
 
 
 <!-- fooooooooooooterrrrr -->
- 
-  <footer>
+<footer>
     <div class="container-fluid bg-dark">
       <div class="container-xxl fw-light">
           <div class="row footer p-md-5 ps-sm-0 pt-sm-4">
@@ -375,11 +465,9 @@
 
       </div>
   </div>
-  </footer>
+</footer>
 
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

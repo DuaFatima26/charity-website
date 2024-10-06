@@ -135,6 +135,30 @@
    
 }
 
+.events-card button{
+    display: inline-block;
+    border:2px solid #fa6f1c;
+    color: #fa6f1c;
+}
+
+/* styling for the facebook icon in contact page */
+.events-card .icon-con{
+   background-color: rgb(2, 2, 59);
+   border:2px solid rgb(2, 2, 59);
+   color: white;
+}
+
+.events-card .icon-con:hover{
+    background-color: white;
+    color: black;
+    border:2px solid rgb(2, 2, 59);
+}
+
+.events-card button:hover{
+    background-color: #fa6f1c;
+    color: white; 
+}
+
 .new .york{
     cursor: pointer;
     line-height: 2px;
